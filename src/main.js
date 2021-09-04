@@ -5,6 +5,7 @@ import store from './store'
 
 // import global css config
 import '@/styles/index.css'
+import 'ol/ol.css'
 
 Vue.config.productionTip = false
 

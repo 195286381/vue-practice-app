@@ -53,6 +53,28 @@ const routes = [
     meta: {
       group: 'openlayer'
     }
+  },
+  {
+    path: '/ol/dragZoom',
+    name: 'dragZoom',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "flexTest" */ '../views/ol/DragPan.vue'),
+    meta: {
+      group: 'openlayer'
+    }
+  },
+  {
+    path: '/ol/popup',
+    name: 'popup',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "flexTest" */ '../views/ol/Popup.vue'),
+    meta: {
+      group: 'openlayer'
+    }
   }
 ]
 
